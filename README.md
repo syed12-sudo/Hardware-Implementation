@@ -3,6 +3,7 @@
 ## Convolution Processing Elements (PE) Overview
 This repository contains Verilog modules implementing 1D and 2D Processing Elements (PEs) for convolution operations in CNNs. The framework supports both multiplier-based and barrel-shifter-based designs for efficient computation, covering kernel sizes of 3×3 and 5×5.
 
+All the models are pretrained and loaded from memory. We perform experimentation on FPGA Virtex-7 (xc7vx485t) using Verilog HDL in Xilinx Vivado Design Suite 2018.3, synthesizing the design for hardware evaluation.
 ### USAGE 
 
 Each module can be instantiated and connected according to the kernel size and layer type (NP-layer or P-layer).
